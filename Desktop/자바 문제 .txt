@@ -1,0 +1,25 @@
+1. 3번 short 가 char 보다 작아서(short : -32,768 ~ 32,767),(char : 0~65535) shortValue = charValue; 가될수가 없다 -> shortValue = (short)charValue;
+2. 
+3. 1번 int트형이라서
+4. 5번 short + short 는 int라 강제 형변환해야함
+5. c2가 int트형인데 char로 되있어서 (char)로 형변환 해주면 된다
+6. int int 타입이라서 
+7. double, (double)x/y
+8. (int)var1+var2
+9. (int)(var1+(var2+var3))+(int)Double.parseDouble(var4)
+10. 5, 23, 23
+11.
+Byte.parseByte(value)
+Integer.parseInt(value)
+Float.parseFloat(value)
+Double.parseDouble(value)
+{
+//문자역을 기본 데이터 타입으로 변환 
+byte byte1 = Byte.parseByte(str1);
+short short1 = Byte.parseByte(str2);
+int int1 = Integer.parseInt(str2);
+long long1 = Long.parseLong(str2);
+float float1 = Float.parseFloat(str2);
+double double1 = Double.parseDouble(str2);
+Boolean bool1 = Boolean.parseBoolean("true");
+}
